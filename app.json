@@ -4,6 +4,7 @@
     "slug": "expo-clerk-auth",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "expo-clerk-auth",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +23,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
   }
 }
